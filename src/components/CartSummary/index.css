@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.cart-ummary-cont {
+  height: 20%;
+  width: 30%;
+  align-self: flex-end;
+  padding: 1%;
+}
+.cart-summary-heading {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+@media (max-width: 767px) {
+  .cart-summary-heading {
+    font-size: 14px;
+  }
+  .cart-ummary-cont {
+    width: 40%;
+  }
+}
+.span-heading {
+  color: #171f46;
+}
+.cart-summary-para {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.checkout-btn {
+  width: 100%;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 0px;
+}
